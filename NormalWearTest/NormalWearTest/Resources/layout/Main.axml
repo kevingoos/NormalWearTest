@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_height="match_parent"
+  android:layout_width="match_parent">
+
+  <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    app:layout_box="all">
+
+    <TextView
+      android:gravity="center"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:text="Hello Android Wear" />
+
+    <Button
+      android:text="Ok"
+      android:layout_gravity="bottom|start"
+      android:layout_height="50dp"
+      android:layout_width="50dp" />
+
+    <Button
+      android:text="Cancel"
+      android:layout_gravity="bottom|end"
+      android:layout_height="50dp"
+      android:layout_width="50dp" />
+  </FrameLayout>
+</android.support.wearable.view.BoxInsetLayout>
